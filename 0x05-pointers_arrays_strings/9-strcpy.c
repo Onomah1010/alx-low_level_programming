@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _stropy - copies the string pionted to by src
+ * _strcpy - copies the string pionted to by src
  * @dest: dstination
  * @src: source
  * Return: string
  */
-char *_stropy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len = 0;
 
