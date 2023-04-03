@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * add_nodeint_end - adds a node at the end of a linked list
  * @head: pointer to the first element in the list
@@ -24,5 +25,3 @@ temp = temp->next;
 temp->next = new;
 return (new);
 }
-
-
